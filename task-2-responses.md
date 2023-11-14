@@ -11,4 +11,5 @@ Where concavity remains constant, error will accumulate along a trend. However, 
 The approximate solution decreases in accuracy at a slower rate for n=201 than n=101. The overall accuracy is also improved (R<sup>2</sup>=0.91). By increasing the number of subintervals, the accuracy of each individual interval is increased. This results in lower error accumulation, thereby contributing to a better approximation. 
 
 **4. What do you think would happen if you changed the value of n to 401? To 501?**
+
 I think the rate at which performance decreases will decrease as n increases, and I think performance overall will increase (implying higher R<sup>2</sup> and lower RMSE/NRMSE). When actually tested, Root Mean Squared Error (RMSE) and Normalized Root Mean Squared Error (NRMSE) appear to decrease exponentially, indicating decreasingly improved performance as n increases. Thus, the performance will increase for n=401, and slightly more for n=501.
